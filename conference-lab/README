@@ -1,0 +1,12 @@
+Commands to run the project:
+1. Clone the project
+2. In one termial run: mongodb in one terminal (assuming mongodb is installed in the system)
+3. In the second terminal (from the directory where you have package.json file present) run : npm install
+3. Then, go to the seed folder: cd seed
+4. In the second terminal run: node product-seeder.js 
+	This will populate the database with the revelant entries 
+5. In the same terminal run: cd ..
+	To go one folder back
+6. Then, run: npm start
+	This will start the server
+7. You can check the project working at the "http://localhost:3000/"
