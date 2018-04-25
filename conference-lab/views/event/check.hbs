@@ -1,0 +1,213 @@
+<h1>{{title}}</h1>
+<p>Welcome to {{title}}</p>
+
+{{# each products }}
+    <div class="row">
+        {{# each this }}
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="{{ this.imagePath }}" alt="..." class="img-responsive">
+                    <div class="caption">
+                        <h3>{{ this.title }} </h3>
+                        <p class="description">{{ this.description }}</p>
+                        <div class="clearfix">
+                            <div class="price pull-left">${{ this.price }}</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+{{/each}}
+
+
+
+<div class="row">
+    <div class="thumbnail">
+        <general>Breakfast </general>
+        <div class="price pull-right">9:9:30am</div>
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="..." class="img-responsive">
+            <div class="caption">
+                <h3>React </h3>
+                <p class="description">Science and Technology</p>
+                <div class="clearfix">
+                    <div class="price pull-left">$12</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Philippine-stock-market-board.jpg" alt="..." class="img-responsive">
+            <div class="caption">
+                <h3>Finance</h3>
+                <p class="description">Business and Finance</p>
+                <div class="clearfix">
+                    <div class="price pull-left">$12</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Albert_Edelfelt_-_Louis_Pasteur_-_1885.jpg" alt="..." class="img-responsive">
+            <div class="caption">
+                <h3>Chemical Labs </h3>
+                <p class="description">Medical Science </p>
+                <div class="clearfix">
+                    <div class="price pull-left">$12</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/1e/Camera_phone_sharing.JPG" alt="..." class="img-responsive">
+            <div class="caption">
+                <h3>React-Native </h3>
+                <p class="description">Science and Technology</p>
+                <div class="clearfix">
+                    <div class="price pull-left">$12</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Philippine-stock-market-board.jpg" alt="..." class="img-responsive">
+            <div class="caption">
+                <h3>Finance </h3>
+                <p class="description">Business and Finance</p>
+                <div class="clearfix">
+                    <div class="price pull-left">$12</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Albert_Edelfelt_-_Louis_Pasteur_-_1885.jpg" alt="..." class="img-responsive">
+            <div class="caption">
+                <h3>Insects </h3>
+                <p class="description">Medical Science </p>
+                <div class="clearfix">
+                    <div class="price pull-left">$12</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="thumbnail">
+        <general>Lunch</general>
+        <div class="price pull-right">2:2:45pm</div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="..." class="img-responsive">
+            <div class="caption">
+                <h3>Node JS </h3>
+                <p class="description">Science and Technology</p>
+                <div class="clearfix">
+                    <div class="price pull-left">$12</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Philippine-stock-market-board.jpg" alt="..." class="img-responsive">
+            <div class="caption">
+                <h3>Finance </h3>
+                <p class="description">Business and Finance</p>
+                <div class="clearfix">
+                    <div class="price pull-left">$12</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Albert_Edelfelt_-_Louis_Pasteur_-_1885.jpg" alt="..." class="img-responsive">
+            <div class="caption">
+                <h3>Animals </h3>
+                <p class="description">Medical Science </p>
+                <div class="clearfix">
+                    <div class="price pull-left">$12</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/45/MongoDB-Logo.svg" alt="..." class="img-responsive">
+            <div class="caption">
+                <h3>MongoDb </h3>
+                <p class="description">Science and Technology</p>
+                <div class="clearfix">
+                    <div class="price pull-left">$12</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Philippine-stock-market-board.jpg" alt="..." class="img-responsive">
+            <div class="caption">
+                <h3>Finance </h3>
+                <p class="description">Business and Finance</p>
+                <div class="clearfix">
+                    <div class="price pull-left">$12</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Albert_Edelfelt_-_Louis_Pasteur_-_1885.jpg" alt="..." class="img-responsive">
+            <div class="caption">
+                <h3>Birds </h3>
+                <p class="description">Medical Science </p>
+                <div class="clearfix">
+                    <div class="price pull-left">$12</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="thumbnail">
+        <general>Snacks</general>
+        <div class="price pull-right">5:5:30pm</div>
+    </div>
+</div>
